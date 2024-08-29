@@ -1,0 +1,122 @@
+/* Container for the Questions component */
+.questions-container {
+  background-color: #f9fafb; /* Light gray background */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 2rem; /* Padding around the container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form styling */
+.question-form {
+  margin-bottom: 1.5rem; /* Space below the form */
+}
+
+/* Input field styling */
+.question-input {
+  border: 2px solid #d1d5db; /* Gray border */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.75rem; /* Padding inside the input */
+  width: calc(100% - 4rem); /* Full width minus width of button */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input focus state */
+.question-input:focus {
+  border-color: #3b82f6; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+.add-question-button,
+.add-answer-button,
+.check-score-button {
+  background-color: #3b82f6; /* Blue background */
+  color: white; /* White text */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.75rem; /* Padding inside the buttons */
+  margin-top: 0.5rem; /* Space above the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Button hover state */
+.add-question-button:hover,
+.add-answer-button:hover,
+.check-score-button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+/* List styling */
+.question-list {
+  list-style-type: none; /* Remove default list styling */
+  padding-left: 0; /* Remove padding */
+}
+
+/* Individual question item styling */
+.question-item {
+  background-color: white; /* White background for each item */
+  border: 1px solid #e5e7eb; /* Light gray border */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.75rem; /* Padding inside the item */
+  margin-bottom: 0.5rem; /* Space between items */
+}
+
+/* Styling for answer options */
+.answer-option {
+  padding: 0.5rem; /* Padding inside answer options */
+  border-radius: 0.375rem; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 0.25rem 0; /* Space between answers */
+  background-color: #f1f5f9; /* Light background */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Selected answer option */
+.answer-option.selected {
+  background-color: #60a5fa; /* Blue background for selected answer */
+  color: white; /* White text */
+}
+
+/* Remove button styling */
+.remove-answer-button {
+  background: none; /* No background */
+  border: none; /* No border */
+  color: red; /* Red color for the cross */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-left: 0.5rem; /* Space between input and button */
+  font-size: 1.2rem; /* Size of the cross */
+}
+
+/* Optional: Change color on hover */
+.remove-answer-button:hover {
+  color: darkred; /* Darker red on hover */
+}
+
+/* Optional: Space between answer input and remove button */
+.flex {
+  align-items: center; /* Center items vertically */
+  gap: 0.5rem; /* Space between input and button */
+}
+
+/* Styling for the select correct answer button */
+.select-correct-answer-button {
+  background-color: #f3f4f6; /* Light background */
+  border: 1px solid #d1d5db; /* Gray border */
+  border-radius: 0.375rem; /* Rounded corners */
+  margin-left: 0.5rem; /* Space between input and button */
+  padding: 0.5rem; /* Padding inside button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.select-correct-answer-button.selected {
+  background-color: #10b981; /* Green background when selected */
+  color: white; /* White text */
+}
+
+/* Styling for the score display */
+.score-display {
+  margin-top: 1rem; /* Space above the score */
+  font-size: 1.25rem; /* Slightly larger text */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+}

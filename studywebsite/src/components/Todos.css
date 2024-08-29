@@ -1,0 +1,91 @@
+/* Todos.css */
+
+/* Container for the Todo component */
+.todos-container {
+  background-color: #f9fafb; /* Light gray background */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 2rem; /* Padding around the container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form styling */
+.todo-form {
+  margin-bottom: 1.5rem; /* Space below the form */
+}
+
+/* Input field styling */
+.todo-input {
+  border: 2px solid #d1d5db; /* Gray border */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.75rem; /* Padding inside the input */
+  width: 100%; /* Full width */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input focus state */
+.todo-input:focus {
+  border-color: #3b82f6; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+.todo-button {
+  margin-top: 0.5rem; /* Space above the button */
+  background-color: #3b82f6; /* Blue background */
+  color: white; /* White text */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.75rem; /* Padding inside the button */
+  width: 100%; /* Full width */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Button hover state */
+.todo-button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+/* List styling */
+.todo-list {
+  list-style-type: none; /* Remove default list styling */
+  padding-left: 0; /* Remove padding */
+}
+
+/* Individual todo item styling */
+.todo-item {
+  background-color: white; /* White background for each item */
+  border: 1px solid #e5e7eb; /* Light gray border */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.75rem; /* Padding inside the item */
+  margin-bottom: 0.5rem; /* Space between items */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Todo item hover state */
+.todo-item:hover {
+  background-color: #f1f5f9; /* Light blue-gray on hover */
+}
+/* Todos.css */
+
+/* Existing styles... */
+
+/* Completed todo item styling */
+.completed {
+  text-decoration: line-through; /* Strikethrough for completed items */
+  color: gray; /* Gray color for completed items */
+}
+
+/* Remove button styling */
+.remove-button {
+  background: none; /* No background */
+  border: none; /* No border */
+  color: red; /* Red color for the cross */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-left: 1rem; /* Space between text and button */
+  font-size: 1.2rem; /* Size of the cross */
+}
+
+/* Optional: Change color on hover */
+.remove-button:hover {
+  color: darkred; /* Darker red on hover */
+}

@@ -1,11 +1,13 @@
 import React from "react";
-import Hello from "./components/Hello";
+import Todos from "./components/Todos"; // Import the Todos component
+import Questions from "./components/Questions";
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      <Hello />
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <Questions />
     </div>
   );
-};
+}
+
 export default App;
